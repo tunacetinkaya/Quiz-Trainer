@@ -8,6 +8,7 @@ Welcome to the Quiz Trainer Browser, your dynamic tool for mastering exam questi
 - **Navigation Controls:** Seamlessly move between questions using the `Previous` and `Next` buttons.
 - **Search Capability:** Directly jump to a question by entering its number in the search bar, making your review sessions more efficient.
 - **Dynamic Question Loading:** Questions are loaded dynamically from a JSON file, ensuring that the content stays up-to-date and relevant.
+- **Exam Mode:** Enrich your study experience by enabling exam mode, which presents random questions within a specified range.
 
 ## Getting Started 🛠️
 
@@ -29,13 +30,13 @@ pip install -r requirements.txt
 3. Once the dependencies are installed, you can start the application by running:
 
 ```bash
-python main.py <json_file_path>
+python main.py <json_file_path> [--exam start-end]
 ```
 
-For example, to start the application with the AWS DevOps Professional exam questions, you can run:
+For example, to start the application with the AWS DevOps Professional exam questions and enter exam mode for questions 1 to 50, you can run:
 
 ```bash
-python main.py ./resources/questions/aws_devops_professional.json
+python main.py ./resources/questions/aws_devops_professional.json --exam 1-50
 ```
 
 This command initializes the application, presenting you with an interactive browser interface showcasing the exam questions.
@@ -47,6 +48,13 @@ The application interface is straightforward:
 - Use the `Previous` and `Next` buttons on the toolbar to navigate through the questions.
 - To jump to a specific question, enter the question number in the search bar and press Enter.
 - If the entered question number does not exist, a warning message will appear, prompting you to try again.
+
+## Keyboard Controls 🎮
+
+Enhance your browsing experience by using the keyboard arrow keys:
+
+- Press the **left arrow** key to navigate to the previous question.
+- Press the **right arrow** key to navigate to the next question.
 
 ## Current Exams Available 📋
 
