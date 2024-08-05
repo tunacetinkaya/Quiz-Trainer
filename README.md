@@ -61,6 +61,7 @@ Enhance your browsing experience by using the keyboard arrow keys:
 - AWS Certified DevOps Engineer - Professional
 - AWS Certified Solutions Architect - Professional
 - AWS Certified Machine Learning - Specialty
+- AWS Certified Advanced Networking
 
 Stay tuned as we continue to add more exams to our collection!
 
